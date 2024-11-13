@@ -1,97 +1,211 @@
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Guido Uguzzoni
     - name: Date of Birth
-      value: 14th March 1879
+      value: 8th January 1984
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Business Administration
+      institution: MIB Trieste School of Management
+      year: 2022
+      description: Executive MBA in Business Innovation
 
+    - title: Ph.D in Statistical Physics and Computational Biology
+      institution: Università di Parma
+      year: 2014
+
+    - title: Master's degree in Physics
+      institution: Università di Roma "La Sapienza"
+      year: 2010
+      # description: Mark - 110/110 with praise
+
+    - title: Bachelor's degree in Physics
+      institution: Università di Roma "La Sapienza"
+      year: 2007
+      # description: Mark - 110/110
+    
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Researcher
+      institution: Laboratoire Biosciences et bioingénierie pour la santé - IRIG CEA
+      year: Dec 2024 - present
+      description: Application of AI to precision medicine
+      
+    - title: Researcher
+      institution: Candiolo Cancer Institute - Italian Institute for Genomic Medicine
+      year: May 2022 - Dec 2024
+      description: Application of AI to design protein specificity
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Assistant Editor
+      institution: Elsevier - Computer Methods and Programs in Biomedicine
+      year: May 2024 - Oct 2024
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Postdoctoral Researcher
+      institution: Politecnico di Torino - Dipartimento Scienza Applicata e Tecnologia
+      year: May 2018 - May 2022
+      description: Generative models of biological active protein sequences
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Engineer
+      institution: Institut Curie, Paris - Laboratoire Physico Chimie Curie
+      year: Sep 2016 - Dec 2017
+      description: Reconstruction of causal graph integrating medical records and biological annotations for clinical applications
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Visiting Researcher
+      institution: Human Genetics Foundation (HUGEF), Torino
+      year: Jan 2016 - Mar 2016
+      description: Applied statistical mechanics modeling of genomic data for prediction of novel protein interactions
+
+    - title: Postdoctoral Researcher
+      institution: Université Pierre et Marie Curie, Paris
+      year: Jan 2014 - Jan 2016
+      description: Statistical Physics inference approaches to genomic data for protein structure and function predictions
+
+
 
 - title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Computational Biology
+    - Machine Learning
+    - Bioinformatics
+    - Genomics
+    - Statistical Physics
+    - Technology Transfer
+
+# - title: Scientific Expertise
+#   type: list
+#   contents:
+#     - "Computer Science: Machine Learning, Statistical Inference, Generative models, Deep Learning, Network reconstruction, Monte Carlo simulations, Algorithm development"
+#     - "Computational Biology: Protein function optimization, Protein structure prediction, Protein Design, Genomic annotations, NGS data analysis"
+#     - "Programming: Julia, Python, C/C++, Matlab, R, Mathematica, SQL, bash, Git"
+
+# - title: Academic Overview
+#   type: list
+#   contents:
+#     - 15 papers (in 10 Q1 journals, > 400 citations)
+#     - 1 patent
+#     - ~20 conferences and workshops
+#     - Scientific journal editor and review activities
+#     - Project design, writing proposal & grant funding secured
+#     - Tutoring students and mentorship of young researchers
+#     - Served as a teaching assistant
+
+# - title: Languages
+#   type: language
+#   contents:
+#     - language: English
+#       level: Fluent
+#     - language: French
+#       level: Fluent
+#     - language: Italian
+#       level: Native
+
+
+
+
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
+
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: PhD
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1905
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Federal teaching diploma
+#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#       year: 1900
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Professor of Theoretical Physics
+#       institution: Institute for Advanced Study, Princeton University
+#       year: 1933 - 1955
+#       description:
+#         - Description 1.
+#         - Description 2.
+#         - title: Description 3.
+#           contents:
+#             - Sub-description 1.
+#             - Sub-description 2.
+#     - title: Visiting Professor
+#       institution: California Institute of Technology, Pasadena, California, US
+#       year: 1933
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+#     - title: Director
+#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#       year: 1917-1933
+
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
+
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

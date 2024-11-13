@@ -1,34 +1,37 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Weigt":
+  - firstname: ["Martin"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Fernandez-de-Cossio-Diaz":
+  - firstname: ["Jorge"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Nizak":
+  - firstname: ["Clément"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Rivoire":
+  - firstname: ["Olivier"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Pagnani":
+  - firstname: ["Andrea"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Barra":
+  - firstname: ["Adriano"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Burioni":
+  - firstname: ["Raffaella"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
+
+"Cocco":
+  - firstname: ["Simona"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
+
+"Monasson":
+  - firstname: ["Remi"]
+    url: https://scholar.google.com/citations?user=YOUR_ID
