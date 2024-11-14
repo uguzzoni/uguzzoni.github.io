@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Guido
-middle_name: R.
+middle_name: 
 last_name: Uguzzoni
 email: guido.uguzzoni@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -31,7 +31,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -42,6 +42,8 @@ repo_trophies:
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
 rss_icon: true
+
+
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -54,7 +56,27 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+#max_width: 930px
+
+# -----------------------------------------------------------------------------
+# Navigation bar
+# -----------------------------------------------------------------------------
+
+# Dimensions and position of your profile picture
+max_width: 200px
+
+# Navigation bar entries
+navbar_pages:
+  - title: about
+    url: /
+  - title: publications
+    url: /publications/
+  - title: projects
+    url: /projects/
+  - title: repositories
+    url: /repositories/
+  - title: cv
+    url: /cv/
 
 # TODO: add layout settings (single page vs. multi-page)
 
