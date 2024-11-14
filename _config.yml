@@ -56,14 +56,11 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-#max_width: 930px
+max_width: 950px
 
 # -----------------------------------------------------------------------------
 # Navigation bar
 # -----------------------------------------------------------------------------
-
-# Dimensions and position of your profile picture
-max_width: 200px
 
 # Navigation bar entries
 navbar_pages:
@@ -166,7 +163,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -228,7 +225,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -336,8 +333,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Uguzzoni]
+  first_name: [Guido]
 
   style: apa
   locale: en
@@ -424,7 +421,7 @@ imagemagick:
   widths:
     - 480
     - 800
-    - 1400
+  # - 1400
   input_directories:
     - assets/img/
   input_formats:
@@ -664,10 +661,10 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
-  - awards
+#  - volunteer
+#  - awards
   - certificates
-  - skills
+#  - skills
   - languages
   - interests
   - references

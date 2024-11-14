@@ -1,9 +1,16 @@
 github_users:
-  - uguzzoni
+#  - uguzzoni
 
 repo_description_lines_max: 2
 
 github_repos:
+  # - name: BiophysViabilityModel
+  #   url: https://github.com/uguzzoni/BiophysViabilityModel
+  #   description:
+    
+  # - name: PlmDCAtime
+  #   url: https://github.com/uguzzoni/PlmDCAtime
+  #   description:
   - BiophysViabilityModel
   - PlmDCAtime
   - DMSsim
