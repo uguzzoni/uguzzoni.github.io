@@ -13,21 +13,21 @@
   type: time_table
   contents:
     - title: Master of Business Administration
-      institution: MIB Trieste School of Management
+      institution: MIB Trieste School of Management, Italy
       year: 2022
       description: Executive MBA in Business Innovation
 
     - title: Ph.D in Statistical Physics and Computational Biology
-      institution: Università di Parma
+      institution: Università di Parma, Italy
       year: 2014
 
     - title: Master's degree in Physics
-      institution: Università di Roma "La Sapienza"
+      institution: Università di Roma "La Sapienza", Italy
       year: 2010
       # description: Mark - 110/110 with praise
 
     - title: Bachelor's degree in Physics
-      institution: Università di Roma "La Sapienza"
+      institution: Università di Roma "La Sapienza", Italy
       year: 2007
       # description: Mark - 110/110
     
@@ -36,38 +36,38 @@
   contents:
 
     - title: Researcher
-      institution: Laboratoire Biosciences et bioingénierie pour la santé - IRIG CEA
-      year: Dec 2024 - present
+      institution: IRIG CEA, Grenoble, France
+      year: 2024 - present
       description: Application of AI to precision medicine
       
     - title: Researcher
-      institution: Candiolo Cancer Institute - Italian Institute for Genomic Medicine
-      year: May 2022 - Dec 2024
-      description: Application of AI to design protein specificity
+      institution: Candiolo Cancer Institute, Italy
+      year: 2022 - 2024
+      description: AI for protein design 
 
     - title: Assistant Editor
       institution: Elsevier - Computer Methods and Programs in Biomedicine
-      year: May 2024 - Oct 2024
+      year: 2024 - 2024
 
     - title: Postdoctoral Researcher
-      institution: Politecnico di Torino - Dipartimento Scienza Applicata e Tecnologia
-      year: May 2018 - May 2022
+      institution: Politecnico di Torino - Italy
+      year: 2018 - 2022
       description: Generative models of biological active protein sequences
 
     - title: Research Engineer
-      institution: Institut Curie, Paris - Laboratoire Physico Chimie Curie
-      year: Sep 2016 - Dec 2017
-      description: Reconstruction of causal graph integrating medical records and biological annotations for clinical applications
+      institution: Institut Curie, Paris, France
+      year: 2016 - 2017
+      description: Reconstruction of causal graph for clinical applications
 
     - title: Visiting Researcher
-      institution: Human Genetics Foundation (HUGEF), Torino
-      year: Jan 2016 - Mar 2016
-      description: Applied statistical mechanics modeling of genomic data for prediction of novel protein interactions
+      institution: Human Genetics Foundation (HUGEF), Turin, Italy
+      year: 2016 - 2016
+      description: Statistical mechanics modeling of genomic data
 
     - title: Postdoctoral Researcher
       institution: Université Pierre et Marie Curie, Paris
-      year: Jan 2014 - Jan 2016
-      description: Statistical Physics inference approaches to genomic data for protein structure and function predictions
+      year: 2014 - 2016
+      description: Statistical Physics inference approaches for protein structure prediction
 
 
 
