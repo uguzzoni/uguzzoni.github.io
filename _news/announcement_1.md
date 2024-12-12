@@ -7,5 +7,5 @@ related_posts: false
 #### Offre Stage M2 :sparkles:
 6 mois, mars 2025
 Laboratoire Biosciences et bioingénierie pour la santé - IRIG - CEA · Grenoble (France)
-Modèles d'Intelligence Artificielle pour la génération de séquences de protéines
-<a href="https://www.sfbi.fr/emplois/offre/202411130811-stage-modeles-dintelligence-artificielle-pour-la-generation-de-sequences-de-proteines">sfbi</a>
+
+<a href="https://www.sfbi.fr/emplois/offre/202411130811-stage-modeles-dintelligence-artificielle-pour-la-generation-de-sequences-de-proteines"> Modèles d'Intelligence Artificielle pour la génération de séquences de protéines - sfbi</a>
