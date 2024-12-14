@@ -1,10 +1,10 @@
 {
-  "generalInformation": {
+  "General Information": {
     "fullName": "Guido Uguzzoni",
     "dateOfBirth": "8th January 1984",
     "languages": ["Italian", "English", "French"]
   },
-  "education": [
+  "Education": [
     {
       "degree": "Master of Business Administration",
       "institution": "MIB Trieste School of Management, Italy",
@@ -27,7 +27,7 @@
       "year": "2007"
     }
   ],
-  "experience": [
+  "Experience": [
     {
       "title": "Researcher",
       "institution": "IRIG CEA, Grenoble, France",
@@ -70,7 +70,7 @@
       "description": "Statistical Physics inference approaches for protein structure prediction"
     }
   ],
-  "academicInterests": [
+  "Academic Interests": [
     "Computational Biology",
     "Machine Learning",
     "Bioinformatics",
