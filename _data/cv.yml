@@ -1,4 +1,3 @@
-
 - title: General Information
   type: map
   contents:
@@ -30,20 +29,19 @@
       institution: Università di Roma "La Sapienza", Italy
       year: 2007
       # description: Mark - 110/110
-    
+
 - title: Experience
   type: time_table
   contents:
-
     - title: Researcher
       institution: IRIG CEA, Grenoble, France
       year: 2024 - present
       description: Application of AI to precision medicine
-      
+
     - title: Researcher
       institution: Candiolo Cancer Institute, Italy
       year: 2022 - 2024
-      description: AI for protein design 
+      description: AI for protein design
 
     - title: Assistant Editor
       institution: Elsevier - Computer Methods and Programs in Biomedicine
@@ -69,8 +67,6 @@
       year: 2014 - 2016
       description: Statistical Physics inference approaches for protein structure prediction
 
-
-
 - title: Academic Interests
   type: list
   contents:
@@ -80,7 +76,6 @@
     - Genomics
     - Statistical Physics
     - Technology Transfer
-
 # - title: Scientific Expertise
 #   type: list
 #   contents:
@@ -108,9 +103,6 @@
 #       level: Fluent
 #     - language: Italian
 #       level: Native
-
-
-
 
 # - title: General Information
 #   type: map

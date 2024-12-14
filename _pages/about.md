@@ -31,10 +31,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My research focuses on developing AI methods for molecular biology and protein design, with a focus on medical applications. 
+My research focuses on developing AI methods for molecular biology and protein design, with a focus on medical applications.
 I work at the intersection of machine learning, statistical physics, and computational biology, using deep sequencing data to train AI models that generate optimized biomolecules.
-My research combines fundamental work with practical applications. I collaborate with experimental groups to design specific antibodies, cancer-targeting peptides, and viral capsids. 
+My research combines fundamental work with practical applications. I collaborate with experimental groups to design specific antibodies, cancer-targeting peptides, and viral capsids.
 By applying AI to molecular biology, I am committed to creating data-driven solutions that accelerate the discovery and optimization of biomolecules for medical purposes.
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.

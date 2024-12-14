@@ -70,12 +70,5 @@
       "description": "Statistical Physics inference approaches for protein structure prediction"
     }
   ],
-  "Academic Interests": [
-    "Computational Biology",
-    "Machine Learning",
-    "Bioinformatics",
-    "Genomics",
-    "Statistical Physics",
-    "Technology Transfer"
-  ]
+  "Academic Interests": ["Computational Biology", "Machine Learning", "Bioinformatics", "Genomics", "Statistical Physics", "Technology Transfer"]
 }

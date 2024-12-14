@@ -15,7 +15,7 @@ nav_order: 4
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
-</div> 
+</div>
 
 ---
 
