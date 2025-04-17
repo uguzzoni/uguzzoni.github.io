@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -40,8 +33,8 @@ ninja.data = [{
         },{id: "news-new-manuscript-in-plos-computational-biology-inference-and-design-of-antibody-specificity-from-experiments-to-models-and-back",
           title: 'New manuscript in PLoS Computational Biology Inference and design of antibody specificity: From...',
           description: "",
-          section: "News",},{id: "news-offre-stage-m2-sparkles-6-mois-mars-2025-laboratoire-biosciences-et-bioingénierie-pour-la-santé-irig-cea-grenoble-france-modèles-d-intelligence-artificielle-pour-la-génération-de-séquences-de-protéines-sfbi",
-          title: 'Offre Stage M2 :sparkles: 6 mois, mars 2025 Laboratoire Biosciences et bioingénierie pour...',
+          section: "News",},{id: "news-stage-m2-sparkles-6-mois-mars-2025-laboratoire-biosciences-et-bioingénierie-pour-la-santé-irig-cea-grenoble-france-modèles-d-intelligence-artificielle-pour-la-génération-de-séquences-de-protéines-sfbi",
+          title: 'Stage M2 :sparkles: 6 mois, mars 2025 Laboratoire Biosciences et bioingénierie pour la...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
