@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-#### Offre Stage M2 :sparkles:
+#### Stage M2 :sparkles:
 
 6 mois, mars 2025
 Laboratoire Biosciences et bioingénierie pour la santé - IRIG - CEA · Grenoble (France)
