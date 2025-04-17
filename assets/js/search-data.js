@@ -37,28 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-new-manuscript-in-plos-computational-biology-inference-and-design-of-antibody-specificity-from-experiments-to-models-and-back",
+          title: 'New manuscript in PLoS Computational Biology Inference and design of antibody specificity: From...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-offre-stage-m2-sparkles-6-mois-mars-2025-laboratoire-biosciences-et-bioingénierie-pour-la-santé-irig-cea-grenoble-france-modèles-d-intelligence-artificielle-pour-la-génération-de-séquences-de-protéines-sfbi",
+          title: 'Offre Stage M2 :sparkles: 6 mois, mars 2025 Laboratoire Biosciences et bioingénierie pour...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -110,35 +93,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%67%75%69%64%6F.%75%67%75%7A%7A%6F%6E%69@%63%65%61.%66%72", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/uguzzoni", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/guido-uguzzoni-4642b425# your LinkedIn user name", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=sULAlqQAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
