@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-   <p> Researcher at <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>Gen&Chem team</a> - <a href='https://www.bge-lab.fr/en'>(BGE)</a> - <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>(IRIG)</a> - CEA-Grenoble.</p>
+   <p> Researcher at <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>Gen&Chem team</a> - <a href='https://www.bge-lab.fr/en'>BGE</a> - <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>IRIG</a> - CEA-Grenoble.</p>
   # <p>Genetics and Chemogenomics team <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>((Gen&Chem))</a><p>
   # <p>Biosciences and bioengineering for health research unit <a href='https://www.bge-lab.fr/en'>(BGE)</a><p>
   # <p>Interdisciplinary Research Institute of Grenoble <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>(IRIG)</a>. <p>
