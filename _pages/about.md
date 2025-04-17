@@ -3,9 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-  <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+  <p><a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.<p>
+  <p><a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.<p>
 
 profile:
   align: right
