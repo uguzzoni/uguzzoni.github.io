@@ -2,96 +2,67 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Guido Uguzzoni
+    # - name: Date of Birth
+    #   value: 8th January 1984
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Business Administration
+      institution: MIB Trieste School of Management, Italy
+      year: 2022
+      description: Executive MBA in Business Innovation
+
+    - title: Ph.D in Statistical Physics and Computational Biology
+      institution: Università di Parma, Italy
+      year: 2014
+
+    - title: Master's degree in Physics
+      institution: Università di Roma "La Sapienza", Italy
+      year: 2010
+      # description: Mark - 110/110 with praise
+
+    - title: Bachelor's degree in Physics
+      institution: Università di Roma "La Sapienza", Italy
+      year: 2007
+      # description: Mark - 110/110
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Researcher
+      institution: IRIG CEA, Grenoble, France
+      year: 2024 - present
+      description: AI for precision medicine
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Researcher
+      institution: Candiolo Cancer Institute, Italy
+      year: 2022 - 2024
+      description: AI for protein design
+      
+    - title: Postdoctoral Researcher
+      institution: Politecnico di Torino - Italy
+      year: 2018 - 2022
+      description: Generative models of biological active protein sequences
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Research Engineer
+      institution: Institut Curie, Paris, France
+      year: 2016 - 2017
+      description: Reconstruction of causal graph for clinical applications
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Postdoctoral Researcher
+      institution: Université Pierre et Marie Curie, Paris
+      year: 2014 - 2016
+      description: Statistical Physics inference approaches for protein structure prediction
 
 - title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Computational Biology
+    - Machine Learning
+    - Bioinformatics
+    - Genomics
+    - Statistical Physics
