@@ -91,6 +91,9 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
+          bundle cache clean --all
+          rm -rf /var/lib/gems/3.0.0/cache/bundler/git
+          bundle install --no-cache
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
