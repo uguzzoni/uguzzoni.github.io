@@ -14,7 +14,7 @@
     - title: Master of Business Administration
       institution: MIB Trieste School of Management, Italy
       year: 2022
-      description: Executive MBA in Business Innovation
+      # description: Executive MBA in Business Innovation
 
     - title: Ph.D in Statistical Physics and Computational Biology
       institution: Università di Parma, Italy
