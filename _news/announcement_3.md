@@ -16,7 +16,7 @@ Unité de recherche BGE - Laboratoire Biosciences et bioingénierie pour la Sant
 
 
 Encadrement de la thèse Christophe BATTAIL  
-Co-Encadrant Guido UGUZZONI, Jorge FERNANDEZ DE COSSIO DIAZ  
+Co-Encadrant Guido UGUZZONI, Jorge FERNANDEZ DE COSSIO DIAZ (IPhT)  
 
 
 Laboratoire Biosciences et bioingénierie pour la santé - IRIG - CEA · Grenoble (France)  
