@@ -20,13 +20,8 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-TODO: one-sentence, non-specialist opening line here — what I design and its medical purpose,
-in terms a grant evaluator outside the field can follow. Draft to confirm/edit: "I design
-proteins and antibodies with artificial intelligence, to help create better treatments and
-diagnostics for diseases such as cancer."
-
-My research focuses on developing AI methods for molecular biology and protein design, with a focus on medical applications.
+My research focuses on developing AI methods for molecular biology, bioinformatics and protein design, with a focus on medical applications.
 I work at the intersection of machine learning, statistical physics, and computational biology, using deep sequencing data to train AI models that generate optimized biomolecules.
-My research combines fundamental work with practical applications. I collaborate with experimental groups to design specific antibodies, cancer-targeting peptides, and viral capsids.
+My research combines fundamental work with practical applications. I collaborate with experimental groups to design specific systems such as peptides, antibodies, and viral capsids.
 
 By applying AI to molecular biology, I am committed to creating data-driven solutions that accelerate the discovery and optimization of biomolecules for medical purposes.
