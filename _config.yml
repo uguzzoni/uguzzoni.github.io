@@ -7,9 +7,11 @@ first_name: Guido
 middle_name: 
 last_name: Uguzzoni
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Guido Uguzzoni, researcher at CEA-Grenoble (BGE/Gen&Chem). AI and machine learning for
+  protein design, protein language models, fitness landscape inference, phage display, and
+  peptide design applied to structural biology and medicine.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -23,18 +25,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
-
-# -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
-
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: false
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -58,80 +48,16 @@ bib_search: true
 # Dimensions
 max_width: 950px
 
-# # -----------------------------------------------------------------------------
-# # Navigation bar
-# # -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Social integration (deprecated inline mechanism — real values live in _data/socials.yml,
+# rendered by _includes/social.liquid. This list is kept as reference/documentation of all
+# handles al-folio's social.liquid natively supports, and as the place to stage handles that
+# aren't ready to go live yet.)
+# -----------------------------------------------------------------------------
 
-# # Navigation bar entries
-# navbar_pages:
-#   - title: about
-#     url: /
-#   - title: publications
-#     url: /publications/
-#   # - title: projects
-#   #   url: /projects/
-#   - title: repositories
-#     url: /repositories/
-#   - title: cv
-#     url: /cv/
-
-# # TODO: add layout settings (single page vs. multi-page)
-
-# # -----------------------------------------------------------------------------
-# # Open Graph & Schema.org
-# # -----------------------------------------------------------------------------
-# # Display links to the page with a preview object on social media.
-# # see https://schema.org/docs/faq.html for more information
-# serve_og_meta: false # Include Open Graph meta tags in the HTML head
-# serve_schema_org: false # Include Schema.org in the HTML head
-# og_image: # The site-wide (default for all links) Open Graph preview image
-
-# # -----------------------------------------------------------------------------
-# # Social integration
-# # -----------------------------------------------------------------------------
-
-# acm_id: # your dl.acm.org/profile/id
-# blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
-# dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-# facebook_id: # your facebook id
-# flickr_id: # your flickr id
-# github_username: uguzzoni # your GitHub user name
-# gitlab_username: # your GitLab user name
-# ieee_id: # your ieeexplore.ieee.org/author/id
-# inspirehep_id: # Inspire HEP author ID
-# instagram_id: # your instagram id
-# kaggle_id: # your kaggle id
-# keybase_username: # your keybase user name
-# lastfm_id: # your lastfm id
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-# linkedin_username: guido-uguzzoni-4642b425 # your LinkedIn user name
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# medium_username: # your Medium username
-# orcid_id: # your ORCID ID
-# osf_id: # your OSF ID
-# pinterest_id: # your pinterest id
-# publons_id: # your ID on Publons
-# quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-# scholar_userid: sULAlqQAAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
-# spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
-# telegram_username: # your Telegram user name
-# unsplash_id: # your unsplash id
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-# zotero_username: # your zotero username
-
-# TODO: add layout settings (single page vs. multi-page)
+# hal_id: TODO — CEA/HAL author profile does not exist yet. Once created, set the identifier
+# here (or in _data/socials.yml, whichever mechanism is added) and it will need a matching
+# case added to _includes/social.liquid, since al-folio has no native HAL icon/link support.
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -158,23 +84,9 @@ google_site_verification: # your google-site-verification ID (Google Search Cons
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
-# Blog
+# Comments (giscus) — available on any page via `giscus_comments: true` in its front matter
 # -----------------------------------------------------------------------------
 
-# blog_name: al-folio # blog_name will be displayed in your blog page
-# blog_description: a simple whitespace theme for academics
-# permalink: /blog/:year/:title/
-# lsi: false # produce an index for related posts
-
-# # Pagination
-# pagination:
-#   enabled: true
-
-# related_blog_posts:
-#   enabled: true
-#   max_related: 5
-
-# # Giscus comments (RECOMMENDED)
 # # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 # giscus:
 #   repo: # <your-github-user-name>/<your-github-repo-name>
@@ -188,21 +100,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 #   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
 #   emit_metadata: 0
 #   lang: en
-
-# # Disqus comments (DEPRECATED)
-# disqus_shortname: al-folio # put your disqus shortname
-# # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# # External sources.
-# # If you have blog posts published on medium.com or other external sources,
-# # you can display them in your blog by adding a link to the RSS feed.
-# external_sources:
-#   - name: medium.com
-#     rss_url: https://medium.com/@al-folio/feed
-#   - name: Google Blog
-#     posts:
-#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -218,11 +115,9 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
   news:
     defaults:
-      layout: post
+      layout: none # news items are only ever read inline via _includes/news.liquid; `post` layout was removed with the blog
     output: true
   projects:
     output: true
@@ -248,6 +143,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - claude-code-prompt-alfolio.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -261,10 +157,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
-  - _pages/teaching.md
-  - _pages/people.md
-  - _pages/repositories.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -320,29 +212,12 @@ terser:
     drop_console: true
 
 # -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
-
-# -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Uguzzoni]
+  first_name: [Guido, G.]
 
   style: apa
   locale: en
@@ -405,7 +280,8 @@ max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+# Disabled: no preview images exist yet for any entry (see _bibliography/papers.bib TODO comments).
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -697,25 +573,3 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references

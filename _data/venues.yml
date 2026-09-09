@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Optional: map a bib entry's `abbr` field to a venue URL/color badge, used by _layouts/bib.liquid.
+# Empty until needed.
+# Example:
+# "PNAS":
+#   url: https://www.pnas.org/
+#   color: "#00369f"
