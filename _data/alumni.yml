@@ -1,0 +1,35 @@
+# Alumni panel on the home page. Three groups: phd_students, past_members, interns
+# (M2/M1 together, per spec). A group with no members renders nothing (see
+# _includes/alumni.liquid). `position` is only shown for past_members (their current role).
+# TODO: fill in real names/years/topics — placeholders below just set the expected count.
+
+phd_students:
+  - name: "TODO: name"
+    years: "TODO: e.g. 2023 - present"
+    topic: "TODO: thesis topic"
+  - name: "TODO: name"
+    years: "TODO: e.g. 2023 - present"
+    topic: "TODO: thesis topic"
+  - name: "TODO: name"
+    years: "TODO: e.g. 2023 - present"
+    topic: "TODO: thesis topic"
+
+past_members:
+  - name: "TODO: name"
+    years: "TODO: e.g. 2021 - 2024"
+    topic: "TODO: thesis/project topic"
+    position: "TODO: current position"
+
+interns:
+  - name: "TODO: name"
+    years: "TODO: e.g. 2025"
+    topic: "TODO: M2 internship topic"
+  - name: "TODO: name"
+    years: "TODO: e.g. 2025"
+    topic: "TODO: M1 internship topic"
+  - name: "TODO: name"
+    years: "TODO: e.g. 2025"
+    topic: "TODO: M1 internship topic"
+  - name: "TODO: name"
+    years: "TODO: e.g. 2025"
+    topic: "TODO: M1 internship topic"

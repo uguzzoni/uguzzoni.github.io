@@ -2,38 +2,28 @@
 layout: about
 title: about
 permalink: /
+description: >
+  Guido Uguzzoni — AI and machine learning for protein design, protein language models, fitness
+  landscape inference, phage display, and peptide design for medical applications.
 subtitle: >
-   <p> Researcher at <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>Gen&Chem team</a> - <a href='https://www.bge-lab.fr/en'>BGE</a> - <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>IRIG</a> - CEA-Grenoble.</p>
-  # <p>Genetics and Chemogenomics team <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>((Gen&Chem))</a><p>
-  # <p>Biosciences and bioengineering for health research unit <a href='https://www.bge-lab.fr/en'>(BGE)</a><p>
-  # <p>Interdisciplinary Research Institute of Grenoble <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>(IRIG)</a>. <p>
-  # <p>CEA-Grenoble.<p>
-#  <p><a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.<p>
-#  <p><a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.<p>
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>IRIG CEA-Grenoble, bâtC3</p>
-    <p>17, rue des Martyrs</p>
-    <p>38054 Grenoble Cedex 9 France</p>
-
+   <p>Researcher at <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>Gen&Chem team</a> - <a href='https://www.bge-lab.fr/en'>BGE</a> - <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>IRIG</a> - CEA-Grenoble.</p>
+   <p>IRIG CEA-Grenoble, bâtC3 · 17, rue des Martyrs · 38054 Grenoble Cedex 9, France</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+collaborators: true # includes the grouped collaborators panel from _data/collaborators.yml
+alumni: true # includes the grouped alumni panel from _data/alumni.yml
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
-
-# latest_posts:
-#   enabled: false
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#   limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the news in the `_news` folder
 ---
+
+TODO: one-sentence, non-specialist opening line here — what I design and its medical purpose,
+in terms a grant evaluator outside the field can follow. Draft to confirm/edit: "I design
+proteins and antibodies with artificial intelligence, to help create better treatments and
+diagnostics for diseases such as cancer."
 
 My research focuses on developing AI methods for molecular biology and protein design, with a focus on medical applications.
 I work at the intersection of machine learning, statistical physics, and computational biology, using deep sequencing data to train AI models that generate optimized biomolecules.

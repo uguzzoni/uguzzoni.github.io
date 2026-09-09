@@ -48,20 +48,30 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
+    <!-- Selected publications + Collaborators -->
+    {% if page.selected_papers or page.collaborators %}
+      <div class="row">
+        <div class="col-md-6 col-12">
+          {% if page.selected_papers %}
+            <h2>
+              <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+            </h2>
+            {% include selected_papers.liquid %}
+          {% endif %}
+        </div>
+        <div class="col-md-6 col-12">
+          {% if page.collaborators %}
+            <h2>collaborators</h2>
+            {% include collaborators.liquid %}
+          {% endif %}
+        </div>
+      </div>
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    <!-- Alumni -->
+    {% if page.alumni %}
+      <h2>alumni</h2>
+      {% include alumni.liquid %}
     {% endif %}
 
     <!-- Social -->

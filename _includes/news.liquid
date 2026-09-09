@@ -18,6 +18,14 @@
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
+              {% case item.category %}
+                {% when 'position' %}
+                  <i class="fa-solid fa-user-plus" title="open position"></i>
+                {% when 'publication' %}
+                  <i class="fa-solid fa-file-lines" title="new publication"></i>
+                {% when 'talk' %}
+                  <i class="fa-solid fa-chalkboard-user" title="talk/seminar"></i>
+              {% endcase %}
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -31,4 +39,7 @@
   {% else %}
     <p>No news so far...</p>
   {% endif %}
+  <p class="text-muted mt-2 mb-0" style="font-size: 0.9rem">
+    I am always interested in motivated M2 and PhD applications, feel free to get in touch.
+  </p>
 </div>

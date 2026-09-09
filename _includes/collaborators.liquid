@@ -1,0 +1,25 @@
+<div class="collaborators">
+  {% for entry in site.data.collaborators %}
+    {% if entry.members and entry.members.size > 0 %}
+      <h6 class="text-muted text-uppercase mt-3 mb-1" style="font-size: 0.8rem">{{ entry.group }}</h6>
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless mb-2">
+          <tbody>
+            {% for member in entry.members %}
+              <tr>
+                <td>
+                  {% if member.url %}
+                    <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">{{ member.name }}</a>
+                  {% else %}
+                    {{ member.name }}
+                  {% endif %}
+                  <span class="text-muted">— {{ member.institution }}</span>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

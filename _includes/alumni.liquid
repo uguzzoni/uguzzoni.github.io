@@ -1,0 +1,30 @@
+<div class="alumni">
+  {% assign alumni_groups = "phd_students|PhD students,past_members|Past members,interns|M2/M1 internships" | split: "," %}
+  {% for g in alumni_groups %}
+    {% assign parts = g | split: "|" %}
+    {% assign key = parts[0] %}
+    {% assign label = parts[1] %}
+    {% assign items = site.data.alumni[key] %}
+    {% if items and items.size > 0 %}
+      <h6 class="text-muted text-uppercase mt-3 mb-1" style="font-size: 0.8rem">{{ label }}</h6>
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless mb-2">
+          <tbody>
+            {% for person in items %}
+              <tr>
+                <td style="width: 25%">{{ person.years }}</td>
+                <td>
+                  <b>{{ person.name }}</b> — {{ person.topic }}
+                  {% if key == 'past_members' and person.position %}
+                    <br>
+                    <span class="text-muted">now: {{ person.position }}</span>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
