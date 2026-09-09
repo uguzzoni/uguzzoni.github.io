@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: none
 date: 2025-09-15 15:59:00-0400
 inline: true
 related_posts: false
+category: position
 ---
 
 #### Stage M2 :sparkles:
