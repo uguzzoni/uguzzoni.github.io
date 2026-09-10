@@ -1,0 +1,8 @@
+# Partner/affiliation logos shown in a row on the home page header, next to the
+# affiliation text and address. Files live in assets/img/logo/.
+- name: CEA
+  file: cea.png
+- name: BGE
+  file: bge.jpg
+- name: UGA
+  file: uga.png

@@ -1,0 +1,11 @@
+<div class="partner-logos d-flex flex-wrap align-items-center" style="gap: 12px;">
+  {% for logo in site.data.partner_logos %}
+    <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+      <img
+        src="{{ logo.file | prepend: '/assets/img/logo/' | relative_url }}"
+        alt="{{ logo.name }}"
+        style="height: 40px; width: auto; display: block;"
+      >
+    </span>
+  {% endfor %}
+</div>
