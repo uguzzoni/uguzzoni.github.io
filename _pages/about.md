@@ -20,6 +20,21 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
+<div class="partner-logos float-left mr-3 mb-3" style="display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+  <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+    <img src="{{ '/assets/img/logo/cea.png' | relative_url }}" alt="CEA" style="height: 40px; width: auto; display: block;">
+  </span>
+  <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+    <img src="{{ '/assets/img/logo/bge.jpg' | relative_url }}" alt="BGE" style="height: 40px; width: auto; display: block;">
+  </span>
+  <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+    <img src="{{ '/assets/img/logo/uga.png' | relative_url }}" alt="Université Grenoble Alpes" style="height: 40px; width: auto; display: block;">
+  </span>
+  <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+    <img src="{{ '/assets/img/logo/inserm.png' | relative_url }}" alt="Inserm" style="height: 40px; width: auto; display: block;">
+  </span>
+</div>
+
 My research focuses on developing AI methods for molecular biology, bioinformatics and protein design, with a focus on medical applications.
 I work at the intersection of machine learning, statistical physics, and computational biology, using deep sequencing data to train AI models that generate optimized biomolecules.
 My research combines fundamental work with practical applications. I collaborate with experimental groups to design specific systems such as peptides, antibodies, and viral capsids.

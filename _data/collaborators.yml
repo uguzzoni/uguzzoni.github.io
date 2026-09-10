@@ -1,39 +1,27 @@
-# Collaborators shown on the home page, grouped by the nature of the collaboration.
-# TODO: confirm each institution's group — pre-filled as a best-effort guess (IPhT Saclay and
-# Sorbonne Université placed under computational; IBS, MEM and Institut de la Vision under
-# experimental) but DIGPHAT, KATHY and MEM in particular need Guido's own call, since their
-# exact scope (consortium vs. lab, fundamental vs. clinical) isn't derivable from the repo.
+# Collaborators shown on the home page as a flat list (no grouping).
 # TODO: fill in the actual person name(s) for each institution (one placeholder row per
 # institution below; add or remove rows as needed).
 #
 # Fields per entry: name, institution, url (optional)
 
-- group: Experimental
-  members:
-    - name: "TODO: name"
-      institution: IBS (Institut de Biologie Structurale)
-      url:
-    - name: "TODO: name"
-      institution: MEM
-      url:
-    - name: "TODO: name"
-      institution: Institut de la Vision
-      url:
-
-- group: Computational
-  members:
-    - name: "TODO: name"
-      institution: IPhT Saclay
-      url:
-    - name: "TODO: name"
-      institution: Sorbonne Université
-      url:
-    - name: "TODO: name"
-      institution: DIGPHAT consortium
-      url:
-
-- group: Clinical
-  members:
-    - name: "TODO: name"
-      institution: KATHY consortium
-      url:
+- name: "TODO: name"
+  institution: IBS (Institut de Biologie Structurale)
+  url:
+- name: "TODO: name"
+  institution: MEM
+  url:
+- name: "TODO: name"
+  institution: Institut de la Vision
+  url:
+- name: "TODO: name"
+  institution: IPhT Saclay
+  url:
+- name: "TODO: name"
+  institution: Sorbonne Université
+  url:
+- name: "TODO: name"
+  institution: DIGPHAT consortium
+  url:
+- name: "TODO: name"
+  institution: KATHY consortium
+  url:

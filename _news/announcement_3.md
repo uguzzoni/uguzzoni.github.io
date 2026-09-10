@@ -4,6 +4,7 @@ date: 2025-05-10 11:59:00-0400
 inline: true
 related_posts: false
 category: position
+title: "PhD offer — noise modeling for antibody design"
 ---
 
 ### PhD offer

@@ -4,6 +4,7 @@ date: 2025-09-15 15:59:00-0400
 inline: true
 related_posts: false
 category: position
+title: "Stage M2 — janvier 2026"
 ---
 
 #### Stage M2 :sparkles:
