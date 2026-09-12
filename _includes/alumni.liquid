@@ -15,6 +15,10 @@
                 <td style="width: 25%">{{ person.years }}</td>
                 <td>
                   <b>{{ person.name }}</b> — {{ person.topic }}
+                  {% if person.encadrant %}
+                    <br>
+                    <span class="text-muted">supervisor: {{ person.encadrant }}</span>
+                  {% endif %}
                   {% if key == 'past_members' and person.position %}
                     <br>
                     <span class="text-muted">now: {{ person.position }}</span>

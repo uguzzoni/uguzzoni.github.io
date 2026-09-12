@@ -115,10 +115,6 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: none # news items are only ever read inline via _includes/news.liquid; `post` layout was removed with the blog
-    output: true
   projects:
     output: true
 

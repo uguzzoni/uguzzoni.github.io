@@ -4,24 +4,25 @@
 #
 # Fields per entry: name, institution, url (optional)
 
-- name: "TODO: name"
-  institution: IBS (Institut de Biologie Structurale)
+
+- name: "Christophe Batail"
+  institution: BGE (Bioscience et bioingénierie pour la santé) - CEA 
   url:
-- name: "TODO: name"
-  institution: MEM
+- name: "Jorge Ferndandez de Cossio Diaz"
+  institution: IPhT - CEA
   url:
-- name: "TODO: name"
-  institution: Institut de la Vision
+- name: "Darren Hart"
+  institution: IBS (Institut de Biologie Structurale) - CEA
   url:
-- name: "TODO: name"
-  institution: IPhT Saclay
-  url:
-- name: "TODO: name"
+- name: "Clement Nizak"
   institution: Sorbonne Université
   url:
-- name: "TODO: name"
-  institution: DIGPHAT consortium
+- name: "Olivier RIvoire"
+  institution: ESPCI Paris
   url:
-- name: "TODO: name"
-  institution: KATHY consortium
+- name: "Deniz Dalkara"
+  institution: Institut de la Vision Paris
+  url:
+- name: "Ulisse Ferrari"
+  institution: Institut de la Vision Paris
   url:

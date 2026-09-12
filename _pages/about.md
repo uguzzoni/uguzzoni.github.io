@@ -16,8 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true # adds a vertical scroll bar once there are more than 5 news items
 ---
 
 My research focuses on developing AI methods for molecular biology, bioinformatics and protein design, with a focus on medical applications.

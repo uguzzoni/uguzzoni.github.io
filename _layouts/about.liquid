@@ -50,7 +50,8 @@ layout: default
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
-      {% include news.liquid limit=true %}
+      {% assign news_page = site.pages | where: "permalink", "/news/" | first %}
+      {% include news.liquid items=news_page.items compact=true %}
     {% endif %}
 
     <!-- Selected publications + Collaborators -->

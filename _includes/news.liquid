@@ -1,18 +1,18 @@
+{% assign news = include.items | sort: "date" | reverse %}
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% if news != blank %}
+    {% assign news_size = news | size %}
     <div
       class="table-responsive"
-      {% if include.limit and page.announcements.scrollable and news_size > 5 %}
+      {% if include.compact and page.announcements.scrollable and news_size > 5 %}
         style="max-height: 13rem; overflow-y: auto;"
       {% endif %}
     >
       <table class="table table-sm table-borderless mb-0">
-        {% assign news = site.news | reverse %}
         {% for item in news %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td class="text-truncate" style="max-width: 1px">
+            <td {% if include.compact %}class="text-truncate" style="max-width: 1px"{% endif %}>
               {% case item.category %}
                 {% when 'position' %}
                   <i class="fa-solid fa-user-plus" title="open position"></i>
@@ -21,7 +21,7 @@
                 {% when 'talk' %}
                   <i class="fa-solid fa-chalkboard-user" title="talk/seminar"></i>
               {% endcase %}
-              {% if include.limit %}
+              {% if include.compact %}
                 <a
                   href="#"
                   class="news-title"
@@ -29,16 +29,10 @@
                   data-target="#news-modal-{{ forloop.index0 }}"
                   onclick="event.preventDefault()"
                 >
-                  {% if item.title %}
-                    {{ item.title }}
-                  {% else %}
-                    {{ item.content | strip_html | strip_newlines | truncate: 90 }}
-                  {% endif %}
+                  {{ item.title }}
                 </a>
-              {% elsif item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {{ item.content | markdownify | emojify }}
               {% endif %}
             </td>
           </tr>
@@ -53,25 +47,20 @@
   </p>
 </div>
 
-{% if include.limit and site.news != blank %}
-  {% assign news = site.news | reverse %}
+{% if include.compact and news != blank %}
   {% for item in news %}
     <div class="modal fade" id="news-modal-{{ forloop.index0 }}" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">{% if item.title %}{{ item.title }}{% endif %}</h5>
+            <h5 class="modal-title">{{ item.title }}</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
             <p class="text-muted">{{ item.date | date: '%B %d, %Y' }}</p>
-            {% if item.inline %}
-              {{ item.content | emojify }}
-            {% else %}
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
+            {{ item.content | markdownify | emojify }}
           </div>
         </div>
       </div>
