@@ -18,18 +18,19 @@ institutions:
     url: https://www.ircc.it/
   - name: Università di Torino
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
-  - name: Politencico di Torino
+    url: https://www.unito.it/
+  - name: Politecnico di Torino
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.polito.it
 
 collaborators:
   - name: Serena Marchiò
     institution: Candiolo Cancer Institute, Università di Torino
-    url: https://TODO
+    url: https://www.atlantis.unito.it/en/serena-marchio
   - name: Andrea Pagnani
     institution: Politecnico di Torino
     role: TODO
+    url: https://www.polito.it/en/staff?p=andrea.pagnani
   - name: Carolina Belisario
     institution: Candiolo Cancer Institute, Italy
     role: TODO

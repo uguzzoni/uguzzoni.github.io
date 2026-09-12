@@ -25,7 +25,7 @@ collaborators:
   - name: Christophe Battail
     institution: CEA IRIG BGE, Grenoble
     role: Pharmacogenomics
-    url: https://TODO
+    url: https://www.researchgate.net/profile/Christophe-Battail
   - name: Hector Pezet
     institution: CEA IRIG BGE, Grenoble
     role: TODO internship topic in a few words

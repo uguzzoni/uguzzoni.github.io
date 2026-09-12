@@ -21,10 +21,10 @@ institutions:
 collaborators:
   - name: Darren Hart
     institution: IBS, Grenoble
-    url: https://TODO
+    url: https://www.ibs.fr/research/research-groups/viral-replication-machines-group-m-jamin/team-hart/
   - name: Alberto Florez Prada
     institution: IBS, Grenoble
-    url: https://TODO
+    url: https://www.linkedin.com/in/florez-alberto/
  
 
 # funding:

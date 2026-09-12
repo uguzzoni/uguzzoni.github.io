@@ -18,23 +18,29 @@ institutions:
     url: https://www.ipht.fr/
   - name: Politecnico di Torino
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.polito.it
   - name: Sorbonne Université
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.sorbonne-universite.fr/
   - name: ESPCI Paris
+    url: https://www.espci.psl.eu/en/
 
 collaborators:
   - name: Jorge Fernandez de Cossio Diaz
     institution: IPhT, CEA Saclay
+    url: https://scholar.google.com/citations?hl=en&user=yPBUaRkAAAAJ
   - name: Andrea Pagnani
     institution:  Politecnico di Torino
+    url: https://www.polito.it/en/staff?p=andrea.pagnani
   - name: Luca Sesta
     institution:  Politecnico di Torino
+    url: https://www.researchgate.net/profile/Luca-Sesta
   - name: Clement Nizak
     institution:  Sorbonne Université
+    url: https://labojeanperrin.fr/?cnizak=
   - name: Olivier Rivoire
     institution: ESPCI Paris
+    url: https://www.gulliver.espci.fr/?olivier-rivoire-his-team-join=
 
 funding:
   - agency: TODO

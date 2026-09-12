@@ -19,13 +19,13 @@ hero:
 institutions:
   - name: IPhT CEA
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.ipht.fr/
   - name: Sorbonne Université
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.sorbonne-universite.fr/
   - name: Politecnico di Torino
     logo: assets/img/logos/TODO.svg
-    url: https://TODO
+    url: https://www.polito.it
 
 # Right panel, block 2: people.
 collaborators:
