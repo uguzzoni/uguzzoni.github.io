@@ -6,23 +6,26 @@
 
 
 - name: "Christophe Batail"
-  institution: BGE (Bioscience et bioingénierie pour la santé) - CEA 
-  url:
+  institution: BGE - CEA
+  url: https://www.bge-lab.fr/en
 - name: "Jorge Ferndandez de Cossio Diaz"
   institution: IPhT - CEA
-  url:
+  url: https://www.ipht.fr/
 - name: "Darren Hart"
-  institution: IBS (Institut de Biologie Structurale) - CEA
-  url:
+  institution: IBS - CEA
+  url: https://www.ibs.fr/
 - name: "Clement Nizak"
   institution: Sorbonne Université
-  url:
+  url: https://www.sorbonne-universite.fr/
 - name: "Olivier RIvoire"
   institution: ESPCI Paris
-  url:
+  url: https://www.espci.psl.eu/en/
 - name: "Deniz Dalkara"
   institution: Institut de la Vision Paris
-  url:
+  url: https://www.institut-vision.org/en
 - name: "Ulisse Ferrari"
   institution: Institut de la Vision Paris
-  url:
+  url: https://www.institut-vision.org/en
+- name: "Serena Marchiò"
+  institution: Università di Torino
+  url: https://www.unito.it/
