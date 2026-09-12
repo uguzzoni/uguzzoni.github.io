@@ -7,7 +7,8 @@ description: >
   landscape inference, phage display, and peptide design for medical applications.
 subtitle: >
    <p>Researcher at <a href='https://www.bge-lab.fr/en/Pages/GenChem/Presentation.aspx'>Gen&Chem team</a> - <a href='https://www.bge-lab.fr/en'>BGE</a> - <a href='https://irig.cea.fr/drf/irig/english/Pages/Presentation.aspx'>IRIG</a> - CEA-Grenoble.</p>
-   <p>IRIG CEA-Grenoble, bâtC3 · 17, rue des Martyrs · 38054 Grenoble Cedex 9, France</p>
+   <p>IRIG CEA-Grenoble, bâtC3 · 17, rue des Martyrs<p>
+   <p>38054 Grenoble Cedex 9, France</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 collaborators: true # includes the grouped collaborators panel from _data/collaborators.yml

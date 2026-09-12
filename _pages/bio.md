@@ -4,10 +4,10 @@ permalink: /bio/
 title: bio
 nav: true
 nav_order: 1
-description: >
-  Bio and research trajectory of Guido Uguzzoni — protein design, protein language models,
-  fitness landscape inference, phage display and peptide design, machine learning for
-  structural biology.
+# description: >
+#   Bio and research trajectory of Guido Uguzzoni — protein design, protein language models,
+#   fitness landscape inference, phage display and peptide design, machine learning for
+#   structural biology.
 ---
 
 <div class="profile float-right">
@@ -25,8 +25,6 @@ description: >
     </p>
   </div>
 </div>
-
-## Bio
 
 I am a permanent researcher in the Genomics and Chemogenomics team at CEA's Biosciences and Bioengineering for Health laboratory (BGE) in Grenoble, which I joined in December 2024. I trained as a statistical physicist and moved to computational biology, with research positions at Université Pierre et Marie Curie, Politecnico di Torino and the Italian Institute for Genomic Medicine. My work develops machine learning methods that learn sequence-function relationships from high-throughput screening experiments and use them to design proteins and peptides with a defined biochemical activity. I develop these methods on concrete therapeutic targets, in collaboration with experimental groups that provide the constraints and the validation.
 
