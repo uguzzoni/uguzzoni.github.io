@@ -11,7 +11,7 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <div class="d-flex flex-wrap justify-content-between align-items-start">
+    <div class="d-flex flex-wrap justify-content-between align-items-start" style="margin-top: 3rem;">
       <div class="desc mb-2">{{ page.subtitle }}</div>
       {% if site.data.partner_logos %}
         {% include partner_logos.liquid %}
@@ -47,7 +47,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 style="margin-top: 3rem;">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% assign news_page = site.pages | where: "permalink", "/news/" | first %}
@@ -56,7 +56,7 @@ layout: default
 
     <!-- Selected publications + Collaborators -->
     {% if page.selected_papers or page.collaborators %}
-      <div class="row">
+      <div class="row" style="margin-top: 2rem;">
         <div class="col-md-6 col-12">
           {% if page.selected_papers %}
             <h2>
@@ -76,7 +76,7 @@ layout: default
 
     <!-- Alumni -->
     {% if page.alumni %}
-      <h2>alumni</h2>
+      <h2 style="margin-top: 2rem;">alumni</h2>
       {% include alumni.liquid %}
     {% endif %}
 
