@@ -8,8 +8,8 @@ category: current
 published: true
 
 hero:
-  path: assets/img/projects/influenza_hero.jpg
-  caption: TODO one line, e.g. predicted structure of a designed peptide bound to the PA subunit (reference complex PDB 2ZNL)
+  path: assets/img/projects/influenza_hero.png
+  caption: Predicted structure of a designed peptide bound to the PA subunit (reference complex PDB 2ZNL)
   zoomable: true
 
 institutions:

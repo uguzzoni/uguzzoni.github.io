@@ -8,8 +8,8 @@ category: current
 published: true
 
 hero:
-  path: assets/img/projects/fitness_hero.jpg
-  caption: TODO one line describing the figure, e.g. inferred selection energy across rounds of a phage display experiment
+  path: assets/img/projects/fitness_hero.png
+  caption: Inference of fitness model from screening experiment and generation of out-of-sample candidates
   zoomable: true
 
 institutions:

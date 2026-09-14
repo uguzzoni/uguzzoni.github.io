@@ -8,8 +8,8 @@ category: current
 published: true
 
 hero:
-  path: assets/img/projects/kras_hero.jpg
-  caption: TODO one line, e.g. selection energies of the four latent modes across the cell line panel
+  path: assets/img/projects/kras_hero.png
+  caption: Schema of the panel assays of KRAS-mutated cell lines to screen peptide library
   zoomable: true
 
 institutions:

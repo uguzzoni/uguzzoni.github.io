@@ -9,7 +9,7 @@ published: true
 
 hero:
   path: assets/img/projects/agents_hero.jpg
-  caption: TODO one line, e.g. schema of the extraction pipeline from literature to context-specific knowledge graph
+  caption: Schema of the pipeline from literature to context-specific knowledge graph
   zoomable: true
 
 institutions:
@@ -20,16 +20,12 @@ institutions:
 collaborators:
   - name: Yoann Cure
     institution: CEA, L_Sim team
-    role: Retrieval and persistent-memory architecture
     url: https://TODO
   - name: Christophe Battail
     institution: CEA IRIG BGE, Grenoble
-    role: Pharmacogenomics
     url: https://www.researchgate.net/profile/Christophe-Battail
   - name: Hector Pezet
     institution: CEA IRIG BGE, Grenoble
-    role: TODO internship topic in a few words
-    group: Students
 
 funding:
   - agency: MIAI UGA
