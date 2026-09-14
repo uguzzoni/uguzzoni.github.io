@@ -1,0 +1,80 @@
+{% if page.institutions %}
+  <h6 class="text-muted text-uppercase mt-0 mb-2" style="font-size: 0.8rem">Institutions</h6>
+  <div class="d-flex flex-wrap align-items-center mb-3" style="gap: 12px;">
+    {% for inst in page.institutions %}
+      {% if inst.url %}
+        <a href="{{ inst.url }}" target="_blank" rel="noopener noreferrer" title="{{ inst.name }}">
+      {% endif %}
+      <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+        <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}" style="height: 40px; width: auto; display: block;">
+      </span>
+      {% if inst.url %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if page.collaborators %}
+  <h6 class="text-muted text-uppercase mt-3 mb-2" style="font-size: 0.8rem">Collaborators</h6>
+  {% assign ungrouped = page.collaborators | where_exp: "c", "c.group == nil" %}
+  {% for c in ungrouped %}
+    <div class="mb-2">
+      <div>
+        {% if c.url %}
+          <a href="{{ c.url }}" target="_blank" rel="noopener noreferrer">{{ c.name }}</a>
+        {% else %}
+          {{ c.name }}
+        {% endif %}
+      </div>
+      <div class="text-muted" style="font-size: 0.85rem">
+        {{ c.institution }}{% if c.role %} — {{ c.role }}{% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  {% assign groups = page.collaborators | map: "group" | uniq | compact %}
+  {% for group in groups %}
+    <div class="text-muted mt-2 mb-1" style="font-size: 0.75rem; text-transform: uppercase;">{{ group }}</div>
+    {% assign group_members = page.collaborators | where: "group", group %}
+    {% for c in group_members %}
+      <div class="mb-2">
+        <div>
+          {% if c.url %}
+            <a href="{{ c.url }}" target="_blank" rel="noopener noreferrer">{{ c.name }}</a>
+          {% else %}
+            {{ c.name }}
+          {% endif %}
+        </div>
+        <div class="text-muted" style="font-size: 0.85rem">
+          {{ c.institution }}{% if c.role %} — {{ c.role }}{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if page.funding %}
+  <h6 class="text-muted text-uppercase mt-3 mb-2" style="font-size: 0.8rem">Funding</h6>
+  {% for f in page.funding %}
+    <div class="mb-2">
+      <div>
+        {% if f.url %}
+          <a href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.title }}</a>
+        {% else %}
+          {{ f.title }}
+        {% endif %}
+      </div>
+      <div class="text-muted" style="font-size: 0.85rem">
+        {{ f.agency }}{% if f.programme %} — {{ f.programme }}{% endif %}{% if f.years %} ({{ f.years }}){% endif %}
+        {% if f.role %}
+          <br>
+          {{ f.role }}
+        {% endif %}
+        {% if f.grant %}
+          <br>
+          {{ f.grant }}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}

@@ -3,9 +3,9 @@ layout: page
 title: news
 permalink: /news/
 items:
-- date: 2025-05-10 11:59:00-0400
+  - date: 2025-05-10 11:59:00-0400
     category: position
-    title: "PhD offer — "
+    title: "PhD offer"
     content: |
       ### PhD offer
 
@@ -29,16 +29,14 @@ items:
       Computational Biology, Artificial Intelligence, Statistical modeling
 
       <a href="https://adum.fr/as/ed/voirproposition.pl?print=oui&matricule_prop=65497"> Noise modeling and machine learning for protein fitness landscapes: application to multi-specific antibody design</a>
-
-- date: 2026-03-TODO 09:00:00+0100
-inline: true
-category: talk
-related_posts: false
-content: |
-<aLecture and hands-on session on machine learning for drug response prediction at the Systems
-Pharmacology Hackathon, TODO location. Students worked on predicting immunotherapy response in
-kidney cancer from multi-omics data.a>
-- date: 2025-09-15 15:59:00-0400
+  - date: 2026-03-01 09:00:00+0100
+    category: talk
+    title: "Systems Pharmacology Hackathon — lecture (TODO: exact date)"
+    content: |
+      Lecture and hands-on session on machine learning for drug response prediction at the Systems
+      Pharmacology Hackathon, TODO location. Students worked on predicting immunotherapy response in
+      kidney cancer from multi-omics data.
+  - date: 2025-09-15 15:59:00-0400
     category: position
     title: "Stage M2 — janvier 2026"
     content: |
@@ -46,8 +44,7 @@ kidney cancer from multi-omics data.a>
 
       6 mois, jan 2026
       Laboratoire Biosciences et bioingénierie pour la santé - IRIG - CEA · Grenoble (France)
-
-- date: 2024-11-10 07:59:00-0400
+  - date: 2024-11-10 07:59:00-0400
     category: publication
     title: "New manuscript in PLoS Computational Biology"
     content: |

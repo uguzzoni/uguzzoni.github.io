@@ -2,13 +2,13 @@
 layout: page
 title: Anti-tumor peptides for KRAS-mutant lung cancer
 description: Whole-cell phage display and probabilistic modelling to identify peptide binders associated with KRAS-mutant contexts
-img: assets/img/projects/kras_card.jpg
+img: assets/img/projects/KRAS_card.jpg
 importance: 3
 category: current
 published: true
 
 hero:
-  path: assets/img/projects/kras_hero.png
+  path: assets/img/projects/KRAS_hero.png
   caption: Schema of the panel assays of KRAS-mutated cell lines to screen peptide library
   zoomable: true
 

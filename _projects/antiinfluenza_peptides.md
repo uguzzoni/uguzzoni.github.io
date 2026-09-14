@@ -2,7 +2,7 @@
 layout: page
 title: Anti-influenza peptides
 description: Designing peptide inhibitors of the PA-PB1 interface of the influenza polymerase
-img: assets/img/projects/influenza_card.jpg
+img: assets/img/projects/influenza_card.png
 importance: 2
 category: current
 published: true

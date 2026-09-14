@@ -140,6 +140,7 @@ include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - claude-code-prompt-alfolio.md
+  - _projects/trash/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile

@@ -8,7 +8,7 @@ category: current
 published: true
 
 hero:
-  path: assets/img/projects/agents_hero.jpg
+  path: assets/img/projects/agents_hero.jpeg
   caption: Schema of the pipeline from literature to context-specific knowledge graph
   zoomable: true
 
