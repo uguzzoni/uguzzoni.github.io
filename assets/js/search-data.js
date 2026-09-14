@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-bio",
           title: "bio",
-          description: "Bio and research trajectory of Guido Uguzzoni — protein design, protein language models, fitness landscape inference, phage display and peptide design, machine learning for structural biology.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/bio/";
@@ -30,51 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-anti-influenza-peptides",
+          title: 'Anti-influenza peptides',
+          description: "Designing peptide inhibitors of the PA-PB1 interface of the influenza polymerase",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/antiinfluenza_peptides.html";
+            },},{id: "projects-context-aware-bioinformatic-ai-agents",
+          title: 'Context-aware bioinformatic AI agents',
+          description: "Inverting differential expression analysis by building context-specific knowledge graphs that generate directional predictions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/bioinformatic_agents.html";
+            },},{id: "projects-inference-of-experimental-protein-fitness-landscapes",
+          title: 'Inference of experimental protein fitness landscapes',
+          description: "Probabilistic models that infer sequence-function relationships directly from high-throughput selection experiments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/fitness_landscapes.html";
+            },},{id: "projects-anti-tumor-peptides-for-kras-mutant-lung-cancer",
+          title: 'Anti-tumor peptides for KRAS-mutant lung cancer',
+          description: "Whole-cell phage display and probabilistic modelling to identify peptide binders associated with KRAS-mutant contexts",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
+              window.location.href = "/projects/kras_peptides.html";
             },},{
         id: 'social-email',
         title: 'email',
