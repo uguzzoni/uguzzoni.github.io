@@ -14,7 +14,7 @@ hero:
 
 institutions:
   - name: CEA IRIG 
-    logo: assets/img/logos/cea.svg
+    logo: assets/img/logos/cea.png
     url: https://www.cea.fr/
 
 collaborators:

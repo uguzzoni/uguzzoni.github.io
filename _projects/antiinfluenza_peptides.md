@@ -48,7 +48,8 @@ collaborators:
    path=page.hero.path
    caption=page.hero.caption
    zoomable=page.hero.zoomable
-   class="img-fluid rounded z-depth-1" %}
+   class="img-fluid rounded z-depth-1"
+   width="50%" %}
 {% endif %}
 
 The influenza RNA polymerase is a heterotrimer whose assembly depends on the interaction between the PA and PB1 subunits. The interface is small, structurally characterised and highly conserved across influenza strains, which makes it an attractive antiviral target and one where resistance is costly for the virus. Peptides derived from the PB1 N-terminus bind PA and inhibit assembly, but their affinity is insufficient for therapeutic use, and improving it by rational mutation is limited by the fact that the determinants of binding are distributed and epistatic.

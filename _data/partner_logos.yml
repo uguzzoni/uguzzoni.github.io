@@ -1,5 +1,5 @@
 # Partner/affiliation logos shown in a row on the home page header, next to the
-# affiliation text and address. Files live in assets/img/logo/.
+# affiliation text and address. Files live in assets/img/logos/.
 - name: CEA
   file: cea.png
 - name: BGE

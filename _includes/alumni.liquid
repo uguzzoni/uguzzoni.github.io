@@ -1,5 +1,5 @@
 <div class="alumni">
-  {% assign alumni_groups = "phd_students|PhD students,past_members|Past members,interns|M2/M1 internships" | split: "," %}
+  {% assign alumni_groups = "phd_students|PhD students,interns|M2/M1 internships,past_members|Past members" | split: "," %}
   {% for g in alumni_groups %}
     {% assign parts = g | split: "|" %}
     {% assign key = parts[0] %}
