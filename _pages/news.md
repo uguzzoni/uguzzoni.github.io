@@ -3,6 +3,18 @@ layout: page
 title: news
 permalink: /news/
 items:
+  - date: 2026-11-04 09:00:00+0100
+    category: publication
+    title: "New article in ACS Omega — peptide ligands for KRAS-mutant lung cancer"
+    content: |
+      #### New article in ACS Omega
+
+      <a href="https://pubs.acs.org/doi/10.1021/acsomega.6c10403">Integrated Whole-Cell Phage Display and Machine Learning Identify Candidate Targeting Ligands in KRAS-Defined Lung Cancer Contexts</a>
+
+      G. Uguzzoni, D. C. Belisario, A. Pagnani, S. Marchiò — *ACS Omega* (2026).
+
+      Whole-cell phage display on a panel of lung cancer cell lines with different KRAS backgrounds, combined with a probabilistic model of selection, to identify peptides associated with KRAS-mutant contexts. See the [project page](/projects/kras_peptides/).
+
   - date: 2026-05-10 11:59:00+0200
     category: position
     title: "PhD position — Integrative AI models for therapeutic peptide design"

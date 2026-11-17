@@ -6,7 +6,11 @@
         <a href="{{ inst.url }}" target="_blank" rel="noopener noreferrer" title="{{ inst.name }}">
       {% endif %}
       <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
-        <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}" style="height: 40px; width: auto; display: block;">
+        {% if inst.logo %}
+          <img src="{{ inst.logo | relative_url }}" alt="{{ inst.name }}" style="max-height: 44px; max-width: 150px; width: auto; height: auto; display: block;">
+        {% else %}
+          <span style="color: #333; font-size: 0.85rem; line-height: 40px;">{{ inst.name }}</span>
+        {% endif %}
       </span>
       {% if inst.url %}
         </a>

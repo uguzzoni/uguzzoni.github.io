@@ -14,15 +14,16 @@ hero:
 
 institutions:
   - name: IPhT, CEA Saclay
-    logo: assets/img/logos/ipht.svg
+    logo: assets/img/logos/ipht.png
     url: https://www.ipht.fr/
   - name: Politecnico di Torino
-    logo: assets/img/logos/TODO.svg
+    logo: assets/img/logos/polito.svg
     url: https://www.polito.it
   - name: Sorbonne Université
-    logo: assets/img/logos/TODO.svg
+    logo: assets/img/logos/sorbonne.svg
     url: https://www.sorbonne-universite.fr/
   - name: ESPCI Paris
+    logo: assets/img/logos/espci.png
     url: https://www.espci.psl.eu/en/
 
 collaborators:
@@ -49,8 +50,9 @@ funding:
     years: TODO
     grant: TODO
 
-# TODO replace with the BibTeX keys of the MBE 2021 and PLOS Comput Biol 2024 papers
-related_publications: fernandez2021unsupervised, sesta2021amala, sesta2023inference, fernandez2024inference, de2024unsupervised
+# PLOS Comput Biol 2024 (antibody specificity), BMC Bioinformatics 2024 (AAV),
+# PLOS Comput Biol 2024 (AnnealDCA, bioRxiv 2023), MBE 2021
+related_publications: fernandez2024inference, de2024unsupervised, sesta2023inference, fernandez2021unsupervised
 ---
 
 <div class="row">

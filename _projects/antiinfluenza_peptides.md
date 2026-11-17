@@ -14,7 +14,7 @@ hero:
 
 institutions:
   - name: Institut de Biologie Structurale
-    logo: assets/img/logos/ibs.svg
+    logo: assets/img/logos/ibs.png
     url: https://www.ibs.fr/
 
 

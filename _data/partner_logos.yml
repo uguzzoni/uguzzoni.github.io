@@ -1,8 +1,11 @@
-# Partner/affiliation logos shown in a row on the home page header, next to the
+# Affiliation logos shown stacked vertically on the home page header, next to the
 # affiliation text and address. Files live in assets/img/logos/.
 - name: CEA
-  file: cea.png
-- name: BGE
-  file: bge.jpg
-- name: UGA
-  file: uga.png
+  file: cea.svg
+  url: https://www.cea.fr/
+- name: Inserm
+  file: inserm.svg
+  url: https://www.inserm.fr/
+- name: Université Grenoble Alpes
+  file: uga.svg
+  url: https://www.univ-grenoble-alpes.fr/

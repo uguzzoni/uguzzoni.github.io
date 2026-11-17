@@ -19,6 +19,12 @@ layout: default
   </article>
 
   {% if page.related_publications %}
+    {% comment %}
+      Register the keys listed in related_publications as cited, so that
+      --cited_in_order renders them (no cite tag is needed in the page body).
+    {% endcomment %}
+    {% assign related_keys = page.related_publications | split: ',' %}
+    {% capture _discard %}{% for rk in related_keys %}{% assign related_key = rk | strip %}{% nocite related_key %}{% endfor %}{% endcapture %}
     <h2>References</h2>
     <div class="publications">
       {% bibliography --cited_in_order %}

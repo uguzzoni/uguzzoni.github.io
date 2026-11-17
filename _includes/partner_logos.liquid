@@ -1,11 +1,13 @@
-<div class="partner-logos d-flex flex-wrap align-items-center" style="gap: 12px;">
+<div class="partner-logos d-flex flex-column align-items-center" style="gap: 10px;">
   {% for logo in site.data.partner_logos %}
-    <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: inline-block;">
+    {% if logo.url %}<a href="{{ logo.url }}" target="_blank" rel="noopener noreferrer" title="{{ logo.name }}">{% endif %}
+    <span style="background: #fff; border-radius: 4px; padding: 4px 8px; display: block;">
       <img
         src="{{ logo.file | prepend: '/assets/img/logos/' | relative_url }}"
         alt="{{ logo.name }}"
-        style="height: 80px; width: auto; display: block;"
+        style="max-height: 56px; max-width: 140px; width: auto; height: auto; display: block;"
       >
     </span>
+    {% if logo.url %}</a>{% endif %}
   {% endfor %}
 </div>

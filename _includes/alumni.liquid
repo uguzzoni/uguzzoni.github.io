@@ -1,5 +1,5 @@
 <div class="alumni">
-  {% assign alumni_groups = "phd_students|PhD students,interns|M2/M1 internships,past_members|Past members" | split: "," %}
+  {% assign alumni_groups = "phd_students|PhD students,interns|M2 internships" | split: "," %}
   {% for g in alumni_groups %}
     {% assign parts = g | split: "|" %}
     {% assign key = parts[0] %}
@@ -19,7 +19,7 @@
                     <br>
                     <span class="text-muted">supervisor: {{ person.encadrant }}</span>
                   {% endif %}
-                  {% if key == 'past_members' and person.position %}
+                  {% if person.position %}
                     <br>
                     <span class="text-muted">now: {{ person.position }}</span>
                   {% endif %}

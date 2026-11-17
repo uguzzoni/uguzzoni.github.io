@@ -13,14 +13,14 @@ hero:
   zoomable: true
 
 institutions:
-  - name: Candiolo Cancer Institute
+  - name: Candiolo Cancer Institute (INOC)
     logo: assets/img/logos/candiolo.svg
-    url: https://www.ircc.it/
+    url: https://inoc.it/
   - name: Università di Torino
-    logo: assets/img/logos/TODO.svg
+    logo: assets/img/logos/unito.svg
     url: https://www.unito.it/
   - name: Politecnico di Torino
-    logo: assets/img/logos/TODO.svg
+    logo: assets/img/logos/polito.svg
     url: https://www.polito.it
 
 collaborators:
@@ -36,15 +36,15 @@ collaborators:
     role: TODO
 
 funding:
-  - agency: AIRC
-    programme: TODO
-    title: TODO
-    role: TODO
-    years: TODO
-    grant: TODO
+  - agency: Fondazione AIRC per la ricerca sul cancro ETS
+    title: AIRC research grant
+    grant: "Grant no. 21679"
+    url: https://www.airc.it/
+  - agency: Italian Ministry of Health
+    title: Ricerca Corrente 2026
+    url: https://www.salute.gov.it/
 
-# TODO add the key of the manuscript once accepted
-# related_publications: TODO_key1
+related_publications: uguzzoni2026integrated
 ---
 
 <div class="row">

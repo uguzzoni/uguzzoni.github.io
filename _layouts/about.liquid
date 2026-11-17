@@ -11,8 +11,8 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <div class="d-flex flex-wrap justify-content-between align-items-start" style="margin-top: 3rem;">
-      <div class="desc mb-2">{{ page.subtitle }}</div>
+    <div class="d-flex flex-wrap justify-content-between align-items-center" style="margin-top: 3rem; gap: 1.5rem;">
+      <div class="desc mb-2" style="flex: 1 1 300px;">{{ page.subtitle }}</div>
       {% if site.data.partner_logos %}
         {% include partner_logos.liquid %}
       {% endif %}

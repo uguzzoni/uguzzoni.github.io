@@ -1,24 +1,19 @@
-# Alumni panel on the home page. Three groups: phd_students, past_members, interns
-# (M2/M1 together, per spec). A group with no members renders nothing (see
-# _includes/alumni.liquid). `position` is only shown for past_members (their current role).
+# Alumni panel on the home page. Two groups: phd_students and interns (M2 only),
+# each listing both current and past members. A group with no members renders nothing
+# (see _includes/alumni.liquid). `position` (current role) is shown when present.
 # TODO: fill in real names/years/topics — placeholders below just set the expected count.
 
 phd_students:
-  - name: "The-Choung TRINH"
-    encadrant: "C.Batail (CEA)"
+  - name: "The-Chuong Trinh"
+    encadrant: "C.Battail (CEA)"
     years: "2025 - present"
-    topic: " AI models in pharmacogenomics "
+    topic: "AI models in pharmacogenomics"
   - name: "Nicola De Simone"
     encadrant: "T.Burger(CEA)"
     years: "2025 - present"
     topic: "Biostatistics and machine learning in Proteomics"
-  # - name: "TODO: name"
-  #   years: "TODO: e.g. 2023 - present"
-  #   topic: "TODO: thesis topic"
-
-past_members:
   - name: "Luca Sesta"
-    encadrant: "A.Pagnagni (Politecnico di Torino)"
+    encadrant: "A.Pagnani (Politecnico di Torino)"
     years: "2020 - 2023"
     topic: "Inference models of protein fitness landscapes"
     position: "PostDoc Biozentrum - University of Basel"
@@ -27,12 +22,3 @@ interns:
   - name: "Hector Pezet"
     years: "2026"
     topic: "Ontology-guided AI GraphRAG framework in bioinformatics"
-  # - name: "TODO: name"
-  #   years: "TODO: e.g. 2025"
-  #   topic: "TODO: M1 internship topic"
-  # - name: "TODO: name"
-  #   years: "TODO: e.g. 2025"
-  #   topic: "TODO: M1 internship topic"
-  # - name: "TODO: name"
-  #   years: "TODO: e.g. 2025"
-  #   topic: "TODO: M1 internship topic"
