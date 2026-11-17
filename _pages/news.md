@@ -3,6 +3,28 @@ layout: page
 title: news
 permalink: /news/
 items:
+  - date: 2026-11-17 09:00:00+0100
+    category: position
+    title: "Stage M2 — Bioinformatic AI agents"
+    content: |
+      #### Stage M2 — Bioinformatic AI agents :sparkles:
+
+      6 mois · Laboratoire Biosciences et bioingénierie pour la santé (BGE) - IRIG - CEA · Grenoble (France)
+
+      Context-aware AI agents for bioinformatics: building context-specific knowledge graphs from
+      the literature to generate directional predictions from differential expression analyses.
+      See the [project page](/projects/bioinformatic_agents/).
+
+  - date: 2026-11-16 09:00:00+0100
+    category: publication
+    title: "New article in PLOS One — sequence space coverage in mutagenesis libraries"
+    content: |
+      #### New article in PLOS One
+
+      <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362864">Calculation of sequence space coverage in a mutagenesis library</a>
+
+      A. Florez Prada, G. Uguzzoni, D. J. Hart — *PLOS One* 21(11): e0362864 (2026).
+
   - date: 2026-11-04 09:00:00+0100
     category: publication
     title: "New article in ACS Omega — peptide ligands for KRAS-mutant lung cancer"

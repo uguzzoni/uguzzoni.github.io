@@ -19,6 +19,10 @@
                     <br>
                     <span class="text-muted">supervisor: {{ person.encadrant }}</span>
                   {% endif %}
+                  {% if person.cosupervisor %}
+                    <br>
+                    <span class="text-muted">co-supervisor: {{ person.cosupervisor }}</span>
+                  {% endif %}
                   {% if person.position %}
                     <br>
                     <span class="text-muted">now: {{ person.position }}</span>

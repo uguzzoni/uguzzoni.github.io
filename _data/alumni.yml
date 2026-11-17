@@ -4,6 +4,10 @@
 # TODO: fill in real names/years/topics — placeholders below just set the expected count.
 
 phd_students:
+  - name: "Eleonora Guarnaschelli"
+    cosupervisor: "C.Battail (CEA)"
+    years: "2026 - present"
+    topic: "Integrative structure-fitness models for therapeutic peptide design"
   - name: "The-Chuong Trinh"
     encadrant: "C.Battail (CEA)"
     years: "2025 - present"
